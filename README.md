@@ -1,68 +1,143 @@
-🧪 SQA Manual Testing – To-Do List Application
 
-This repository contains manual testing artifacts (test cases and bug reports) for a To-Do List web application, created as part of my Software Quality Assurance learning and practice.
+# 🧪 SQA Manual Testing – To-Do List Web Application
 
-📋 Project Overview
+This repository contains **manual testing artifacts** for a **To-Do List Web Application**, created as part of my **Software Quality Assurance (SQA)** learning and hands-on practice.
+The project demonstrates structured testing activities following **SDLC and STLC** principles.
 
-The purpose of this project is to test the core functional and UI aspects of a To-Do List application to ensure reliability, usability, and quality.
+---
 
-🔍 Scope of Testing
+## 📋 Project Overview
 
-The following modules were tested:
+The purpose of this project is to **ensure the quality, reliability, and usability** of a To-Do List web application by performing:
 
-Add Task
-Edit Task
-Delete Task
-Mark Task as Completed
-UI Visibility & Responsiveness
-Data persistence after page refresh
+* Test Planning
+* Manual Functional & UI Testing
+* Black-Box Testing
+* Cross-Browser Testing
+* Bug Reporting and Retesting
 
-🧾 Test Artifacts Included
-✅ Test Cases
+---
 
-Functional Test Cases
+## 🔍 Scope of Testing
 
-UI Test Cases
-📄 File: SQA_Test Cases (To Do App).docx
+The following modules and features were tested:
 
-🐞 Bug Reports
-Functional bugs
+* Add Task
+* Edit Task
+* Delete Task
+* Mark Task as Completed
+* Task Status Persistence
+* UI Visibility & Responsiveness
+* Validation & Error Handling
+* Data persistence after page refresh
 
-UI bugs
-📊 File: SQA_Bug Report (To Do App).xlsx
+---
 
-❗ Key Defects Identified
-Functional Issues
+## 🧾 Test Artifacts Included
 
-Application allows adding empty tasks
-Edited tasks are not saved correctly
-Completed task status is lost after page refresh
-Delete action works without confirmation
-UI Issues
-Add Task button is not clearly visible
-Completed tasks lack visual distinction
-UI breaks on smaller screen sizes
-No success/error feedback messages
+### 📘 Test Plan Document
 
-🛠️ Tools Used
+Defines the overall testing strategy and approach.
 
-Microsoft Excel
-Microsoft Word
-Manual Testing Techniques
-Test Case Design
-Bug Reporting
+**Includes:**
 
-📚 Skills Demonstrated
+* Objective & Scope
+* Testing Approach
+* Resources Required
+* Test Environment
+* Entry & Exit Criteria
+* Testing Schedule
 
-Manual Software Testing
-Functional Testing
-UI Testing
-Test Case Writing
-Bug Reporting
-SDLC & STLC Understanding
+📄 **File:** `SQA_Test Plan Document(To Do App).docx`
 
+---
 
+### 🧪 Black-Box Testing
 
-Writing clear, structured test cases
+Test cases designed using **Black-Box Testing techniques**.
 
-Reporting bugs professionally
+**Techniques Used:**
+
+* Boundary Value Analysis (BVA)
+* Equivalence Partitioning (EP)
+
+📄 **File:** `SQA_BlackBox Testing(To Do App).docx`
+
+---
+
+### ✅ Test Cases
+
+* Functional Test Cases
+* UI Test Cases
+
+📄 **File:** `SQA_Test Cases (To Do App).docx`
+
+---
+
+### 🐞 Bug Reports
+
+* Functional Bugs
+* UI Bugs
+
+📊 **File:** `SQA_Bug Report (To Do App).xlsx`
+
+---
+
+## 🌐 Cross-Browser Testing
+
+Cross-browser testing was performed to ensure consistent behavior across:
+
+* Google Chrome
+* Mozilla Firefox
+* Microsoft Edge
+
+---
+
+## ❗ Key Defects Identified
+
+### ⚙️ Functional Issues
+
+* Application allows adding empty tasks
+* Edited tasks are not saved correctly
+* Completed task status is lost after page refresh
+* Delete action works without confirmation
+
+### 🎨 UI Issues
+
+* Add Task button is not clearly visible
+* Completed tasks lack visual distinction
+* UI breaks on smaller screen sizes
+* No success/error feedback messages
+
+---
+
+## 🛠️ Tools Used
+
+* Microsoft Word
+* Microsoft Excel
+* Manual Testing Techniques
+* Test Case Design Techniques
+* Bug Reporting Practices
+
+---
+
+## 📚 Skills Demonstrated
+
+* Manual Software Testing
+* Functional Testing
+* UI Testing
+* Black-Box Testing (BVA & EP)
+* Cross-Browser Testing
+* Test Planning & Documentation
+* Test Case Writing
+* Bug Reporting & Retesting
+* SDLC & STLC Understanding
+* Writing clear and structured test artifacts
+
+---
+
+## 👨‍💻 Author
+
+**Muhammad Arslan Aslam**
+Software Engineering Student | Aspiring SQA Engineer
+
